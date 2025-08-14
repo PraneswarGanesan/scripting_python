@@ -18,3 +18,15 @@ env/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignore dependencies folder
+python/
+*.dist-info/
+*.egg-info/
+
+# Ignore local zip extractions
+*.pyc
+
+# Ignore everything in preprocessing_lambda except the zip
+preprocessing_lambda/*
+!preprocessing_lambda/*.zip
